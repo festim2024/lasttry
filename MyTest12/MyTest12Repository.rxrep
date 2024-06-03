@@ -1,0 +1,51 @@
+﻿<repository
+id="496736ff-978b-41c3-bbe8-7bab75906f34"
+name="MyTest12Repository">
+	<codegen
+	classname="MyTest12Repository"
+	namespace="MyTest12">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d76bdeac-59d4-46ef-ada4-17dd477ca6e1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="9c71302c-7742-4d79-89fc-b8a186476170"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="6c3354b4-f735-41b7-ae95-05a224838f24"
+			name="BtnSubmitUserName"
+			refimgid="0f63d751-0d9d-401b-a8c5-d9d6786f259c"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/button[@controlname='btnSubmitUserName']"
+			robustPath="/form[@controlname='RxMainFrame']//button[@controlname='btnSubmitUserName']"
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+			</item>
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACdSURBVDhPY0AGISEhlUFBQb+IxDOg2iAgODj4
+FBB3QbmkA6Dm/yD6AZvwvPvsQhvhmBUTXxcW5gVrQgYgA9LS0ljvcwpZ3GcXdsSH/zOEMkO1IQDI
+ACD+DcSfsGCQHLpYLVQrBAAF/tfX1zNBuXhBeHi4AlD9bygXAkAGQJlEgVEDhrUBjBAeYYBhADB7
+BoAMAeIGIvB8IAYawMAAAA20kY5E9ZbiAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
